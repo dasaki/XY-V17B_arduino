@@ -3,7 +3,7 @@ By David Sanz Kirbis
 
 December 2019
 
-Using definitions and some code from Peter Barsznic Sept 2018:
+Using definitions and some code by Peter Barsznic Sept 2018:
 https://github.com/electron1979/Arduino_XY-V17B_mp3_wav_player/blob/master/XY-V17B.ino
 
 http://www.icstation.com/mini-player-module-audio-voice-board-8bit-uart-contorl-support-card-card-p-13279.html
