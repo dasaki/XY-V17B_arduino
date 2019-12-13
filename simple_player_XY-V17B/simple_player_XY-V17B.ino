@@ -4,7 +4,8 @@
   December 2019
 
   Use a voltage level tranlator between 5v Arduino's data pins and
-  the module's 3.3v pins
+  the module's 3.3v pins, or at least a voltage divider for the 
+  modules IO1/RX's pin
 
   Arduino                                    XY-V17B           SPEAKER
 
@@ -13,7 +14,7 @@
     5V --------------------------------------- VDD
     GND -------------------------------------- GND
 RX  2 --- 1k resistor ------------------------ IO0/TX
-TX  3 --- 1k resistor ---.--- 3k3 resistor --- GND
+TX  3 --- 1k resistor ---.--- 2k2 resistor --- GND
                           \------------------- IO1/RX
     3.3v ------------ 10k resistor ----------- CON3/BUSY
     GND  ------------ 10k resistor ----------- CON2
