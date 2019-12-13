@@ -7,10 +7,11 @@
   the module's 3.3v pins, or at least a voltage divider for the 
   modules IO1/RX's pin
 
-  Arduino                                    XY-V17B           SPEAKER
+  Arduino                                    XY-V17B           SPEAKERS
 
-                                               DACR ------------   +
-                                               DACL ------------   -
+                                               GND -------------  GND
+                                               DACR ------------   R
+                                               DACL ------------   L
     5V --------------------------------------- VDD
     GND -------------------------------------- GND
 RX  2 --- 1k resistor ------------------------ IO0/TX
